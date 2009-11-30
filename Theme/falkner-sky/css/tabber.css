@@ -1,0 +1,85 @@
+/*Tabs*/
+.tabberlive .tabbertab a {
+	color: #247CA3;
+	text-decoration: none;
+	}
+.tabberlive .tabbertab a:hover {
+	color: #0c5474;	}
+	
+
+.tabberlive .tabbertabhide {
+ 	display:none;
+}
+
+.tabber {
+}
+.tabberlive {
+	float:left;
+margin-left:10px;
+margin-top:15px;
+display:inline;
+width:265px;
+}
+
+ ul.tabbernav {
+	margin: 0;
+	padding: 0;	
+
+}
+
+ ul.tabbernav li{
+	 list-style: none;
+	 margin-right: 10px;
+	 display: inline;  
+	 
+
+}
+
+ul.tabbernav li a{
+	 padding: 6px 12px;
+	 margin-right: 0px;
+	 background: #9FDBF9;
+	 text-decoration: none;
+	 font-family: Arial, Helvetica, sans-serif;
+	 color: #247CA3;
+
+
+}
+
+
+ ul.tabbernav li.tabberactive a {
+	 background-color: #C2E8FB;
+	 color: #247CA3;
+}
+
+.tabberlive .tabbertab {
+	 padding:5px;
+margin:15px 10px 15px 0;
+	 background-color: #C2E8FB; 
+
+}
+
+.tabberlive .tabbertab h2 {
+	 display:none;
+}
+
+.tabberlive .tabbertab h3 {
+ 	display:none;
+}
+
+ .tabberlive .tabbertab .tablist {
+	overflow: hidden;
+	padding: 5px;
+	color: #444444;
+	margin-bottom: 0;
+	}
+
+ .tablist {
+	margin-bottom: 15px;
+}	
+.tablist li{border-bottom:1px dashed #FFFFFF;
+list-style-image:url(img/bulleta.png);
+list-style-position:inside; 
+list-style-type:disc;
+margin-bottom:10px;
+padding-bottom:10px;}
