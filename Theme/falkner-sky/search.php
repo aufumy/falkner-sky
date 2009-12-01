@@ -36,7 +36,7 @@
 
   <div id="twitter">
   <div id="twitter-inside">
-    <?php twitter_messages(cameljourney,1, false, true, '>> ', true, true, false); ?>
+    <?php twitter_messages('wowMinh', 1, false, true, '>> ', true, true, false); ?>
   </div>
   <div class="clear"></div>
   </div>
