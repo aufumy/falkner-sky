@@ -46,15 +46,15 @@ if(is_home())
 <?
 global $options;
 foreach ($options as $value) {
-    if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } else { $$value['id'] = get_settings( $value['id'] ); }
+  if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } else { $$value['id'] = get_settings( $value['id'] ); }
 }
 ?>
 
 <div id="header-wrap">
-	<div id="logo">
-		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-	</div>
-	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+  <div id="logo">
+    <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+  </div>
+  <?php include (TEMPLATEPATH . '/searchform.php'); ?>
 
 <div class="clear"></div>
 </div>
